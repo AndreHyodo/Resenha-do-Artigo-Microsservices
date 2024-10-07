@@ -1,2 +1,12 @@
 # Resenha-do-Artigo-Microsservices
-Resenha do Artigo Microsservices
+
+Microserviços estão transformando o mundo do desenvolvimento de software, surgindo como uma opção promissora frente ao velho modelo monolítico. Em vez de construir um único sistema gigantesco, a ideia aqui é fragmentar as aplicações em serviços menores e independentes, que se comunicam por APIs. Esta estratégia não só facilita a organização do código, mas também torna a manutenção e a escalabilidade mais simples.
+Transformar um monólito em microserviços não é tarefa fácil. As interações entre os componentes exigem um gerenciamento cuidadoso. Muitas vezes, a clareza nas responsabilidades e na comunicação entre serviços se perde. É aí que entra o conceito de "smart endpoints and dumb pipes". A lógica deve se concentrar nos serviços (endpoints), enquanto a infraestrutura de comunicação deve ser simples, agindo apenas como um roteador.
+
+Outra ideia interessante é a filosofia de "produtos, não projetos". Em vez de tratar o desenvolvimento de software como um projeto temporário, as equipes assumem a responsabilidade contínua por um produto, do início à operação. Isso segue a ideia de que o software deve evoluir conforme as necessidades dos usuários, sempre focando nas capacidades de negócios.
+
+Além disso, a descentralização na governança e na gestão de dados é uma característica marcante da arquitetura de microserviços. As equipes têm liberdade para escolher as tecnologias mais adequadas para cada serviço, promovendo o uso de diversas linguagens de programação e bancos de dados. Isso contrasta com os monolitos, que geralmente utilizam uma única tecnologia para toda a aplicação.
+
+No entanto, os microserviços trazem seus desafios. Gerenciar múltiplos serviços interdependentes pode ser complicado, especialmente sem uma estratégia clara de monitoramento e recuperação de falhas. Para mitigar esses riscos, práticas como padrões de circuit breaker, testes automatizados e monitoramento em tempo real são essenciais.
+
+Em resumo, a arquitetura de microserviços oferece uma alternativa viável às aplicações monolíticas, proporcionando mais flexibilidade, escalabilidade e alinhamento com as necessidades do negócio. Mas essa abordagem deve ser adotada com cuidado, considerando as particularidades de cada contexto e os trade-offs envolvidos. Empresas que conseguirem superar esses desafios poderão desfrutar de uma arquitetura que promove a inovação e a agilidade no desenvolvimento de software.
